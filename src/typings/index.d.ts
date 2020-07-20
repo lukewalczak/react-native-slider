@@ -113,6 +113,12 @@ export interface SliderProps extends SliderPropsIOS, SliderPropsAndroid {
   inverted?: boolean;
 
   /**
+   * Specifies whether touch/tap to seek functionality should be enabled.
+   * Default value for iOS is false, for Android and web is true.
+   */
+  touchToSeek?: boolean;
+
+  /**
    * A string of one or more words to be announced by the screen reader.
    * Otherwise, it will announce the value as a percentage.
    * Requires passing a value to `accessibilityIncrements` to work correctly.

@@ -1,6 +1,7 @@
 {
   "private": true,
   "workspaces": ["src", "example"],
+  "main": "src/js/Slider.js",
   "scripts": {
     "validate:eslint": "eslint src example",
     "validate:flow": "flow check src",

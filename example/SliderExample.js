@@ -196,4 +196,10 @@ export const examples = [
       return <SliderExample value={0.6} inverted />;
     },
   },
+  {
+    title: 'Touch to seek enabled',
+    render(): Element<any> {
+      return <SliderExample value={0.5} touchToSeek />;
+    },
+  },
 ];
